@@ -15,7 +15,7 @@ This repository includes the implementation plan for creating a GitHub project n
 - `config/`: Non-sensitive configuration files and templates (store secrets like database credentials/API keys in environment variables or a secrets manager).
 - `docs/`: Project documentation.
 - `scripts/`: Utility scripts (for example, deployment and data seeding).
-- `terraform/` or `cloudformation/`: Infrastructure as Code assets (optional).
+- `terraform/` and `cloudformation/`: Infrastructure as Code assets (optional alternatives; use the one that fits your platform).
 - `docker/`: Dockerfile and related assets (optional, for containerization).
 
 ### 1) Create the GitHub Project
