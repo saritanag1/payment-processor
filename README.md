@@ -18,7 +18,9 @@ This repository includes the implementation plan for creating a GitHub project n
 - `terraform/`: Default Infrastructure as Code directory.
 - `docker/`: Dockerfile and related assets (optional, for containerization).
 
-If CloudFormation is preferred, create `cloudformation/` as an alternative to `terraform/` (do not maintain both as active IaC implementations).
+### Alternative IaC Option (Future)
+
+If CloudFormation is preferred, use `cloudformation/` instead of `terraform/` for IaC in a future migration.
 
 ### 1) Create the GitHub Project
 - Create a new **Project (v2)** named `BillMatrix Next Payment Process`.
