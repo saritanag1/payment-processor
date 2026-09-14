@@ -4,6 +4,10 @@
 
 This repository includes the implementation plan for creating a GitHub project named **BillMatrix Next Payment Process** with integrated monitoring and logging.
 
+## Technology Stack
+
+- **Language:** Python
+
 ## Project Structure
 
 - `src/`: Contains the core application logic.
@@ -11,7 +15,7 @@ This repository includes the implementation plan for creating a GitHub project n
 - `config/`: Configuration files (for example, database connection strings and API keys).
 - `docs/`: Project documentation.
 - `scripts/`: Utility scripts (for example, deployment and data seeding).
-- `terraform/`: Infrastructure as Code assets (optional).
+- `terraform/` or `cloudformation/`: Infrastructure as Code assets (optional).
 - `docker/`: Dockerfile and related assets (optional, for containerization).
 
 ### 1) Create the GitHub Project
