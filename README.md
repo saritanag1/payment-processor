@@ -4,6 +4,16 @@
 
 This repository includes the implementation plan for creating a GitHub project named **BillMatrix Next Payment Process** with integrated monitoring and logging.
 
+## Project Structure
+
+- `src/`: Contains the core application logic.
+- `tests/`: Unit and integration tests.
+- `config/`: Configuration files (for example, database connection strings and API keys).
+- `docs/`: Project documentation.
+- `scripts/`: Utility scripts (for example, deployment and data seeding).
+- `terraform/`: Infrastructure as Code assets (optional).
+- `docker/`: Dockerfile and related assets (optional, for containerization).
+
 ### 1) Create the GitHub Project
 - Create a new **Project (v2)** named `BillMatrix Next Payment Process`.
 - Set visibility and ownership based on team requirements.
