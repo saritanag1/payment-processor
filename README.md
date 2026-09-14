@@ -16,7 +16,7 @@ This repository includes the implementation plan for creating a GitHub project n
 - `docs/`: Project documentation.
 - `scripts/`: Utility scripts (for example, deployment and data seeding).
 - `terraform/`: Default Infrastructure as Code directory.
-- `cloudformation/`: Optional future IaC alternative directory (not scaffolded by default).
+- `cloudformation/`: Optional IaC alternative directory.
 - `docker/`: Dockerfile and related assets (optional, for containerization).
 
 ### Alternative IaC Option (Future)
