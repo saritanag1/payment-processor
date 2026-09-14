@@ -53,10 +53,10 @@ This repository includes the implementation plan for creating a GitHub project n
   - verification steps in non-production
 
 ### 6) Automation and Governance
-- Configure automation rules:
-  - New issue -> `Status = Backlog`
-  - Assigned issue -> `Status = In Progress`
-  - Closed issue -> `Status = Done`
+- Configure automation (for example with GitHub Actions using Project v2 APIs) for:
+  - New issue -> set project `Status = Backlog`
+  - Assigned issue -> set project `Status = In Progress`
+  - Closed issue -> set project `Status = Done`
 - Add project documentation links:
   - Architecture notes
   - Operational runbooks
